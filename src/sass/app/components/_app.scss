@@ -1,0 +1,15 @@
+.app-content {
+  // outline: 1px solid red;
+  min-height: 100vh;
+  margin-top: 50px;
+  padding: 30px;
+  background: #e5e5e5;
+  // margin-left: 230px;
+  transition: margin-left 0.3s ease;
+  @media (max-width: 767px) {
+    margin-left: 0;
+  }
+}
+.app-content1 {
+  margin-left: 230px;
+}

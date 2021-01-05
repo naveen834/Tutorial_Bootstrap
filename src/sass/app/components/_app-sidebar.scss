@@ -1,0 +1,40 @@
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 70px;
+  width: 230px;
+  transform: translateY(-100%);
+  overflow: hidden;
+  z-index: 10;
+  left: 0px;
+  background: $sidebar-color;
+  box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease, width 0.3s ease;
+  @media (max-width: 767px) {
+    left: -230px;
+  }
+}
+.app-1234 {
+  transform: translatey(0%);
+  @media (max-width: 767px) {
+    left: 0px;
+  }
+}
+.app-menu {
+  margin-bottom: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.app-menu__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-left: 2px solid transparent;
+}
+.app.sidebar-toggled .app-sidebar {
+  left: 0px;
+}
