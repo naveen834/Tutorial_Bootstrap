@@ -1,6 +1,6 @@
 # Tutorial_Bootstrap
 *  **Bootstrap**
-with no 
+with
 **hamburger menu**.
 
 * Still learning 
